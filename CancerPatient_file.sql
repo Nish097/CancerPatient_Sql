@@ -20,4 +20,4 @@ select [Alcohol use],smoking,[Dust Allergy]
    
 select COUNT([Patient Id])
    from cancer_patientData
-   where =3
+   where [Alcohol use]=8
